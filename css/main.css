@@ -1,0 +1,31 @@
+body {
+  background-image: url('../assets/background.jpg');
+  background-size: cover;
+  background-position: center;
+  top: 0;
+  left: 0;
+}
+
+.head {
+  background-image: url("../assets/header3.jpg");
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 80px;
+}
+
+.head h1 {
+  font-family: "Open Sans";
+  font-size: 48px;
+  color: white;
+  margin: 0px;
+  padding-left: 20px;
+}
+
+.topnav {
+  left: 0;
+  width: 100%;
+  margin-top: 80px;
+  background-color: white;
+}
