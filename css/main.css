@@ -4,6 +4,7 @@ body {
   background-position: center;
   padding: 0;
   margin: 0;
+  font-family: "Open Sans";
 }
 
 .head {
@@ -15,8 +16,43 @@ body {
 }
 
 .head h1 {
-  font-family: "Open Sans";
   margin-left: 20px;
   color: white;
   display: inline-block;
+}
+
+/* Make navbar dropdown menu */
+
+#holder {
+  padding-top: 80px;
+  background-color: #2f3036;
+  height: 50px;
+}
+
+#navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+}
+
+#navbar li {
+  display: inline-block;
+  float: left;
+  margin-right: 1px;
+}
+
+#navbar li a {
+  min-width: 140px;
+  height: 50px;
+  text-align: center;
+  display: block;
+  line-height: 50px;
+  color: #fff;
+  background: #2f3036;
+  text-decoration: none;
+}
+
+#navbar li:hover a {
+  background: #19c589;
 }
